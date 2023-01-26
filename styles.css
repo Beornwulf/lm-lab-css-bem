@@ -1,7 +1,40 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+.container {
+    display: flex;
 }
 
-/* Happy coding! */
+.card {
+    border-style: solid;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__image {
+    width: 200px;
+}
+
+.card__text {
+    text-align: center;
+    vertical-align: center;
+}
+
+.card--dark {
+    background-color: gray;
+}
+
+.card--light {
+    background-color: azure;
+}
+
+.card__text--dark {
+    color: azure;
+}
+
+.card__text--light {
+    color: gray;
+}
+
+.header {
+
+}
